@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Distributed under the MIT software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+// file COPYING or http://www.opensoure.org/licenses/mit-license.php.
 
 #include "main.h"
 
@@ -28,6 +28,7 @@
 #include <boost/thread.hpp>
 
 using namespace boost;
+using namespace boost::placeholders;
 using namespace std;
 
 #if defined(NDEBUG)
